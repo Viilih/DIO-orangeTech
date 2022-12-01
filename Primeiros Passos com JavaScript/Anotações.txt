@@ -1,1 +1,15 @@
 O javascript é uma linguagem divertida.
+
+####
+Criação de classes com JavaScript 
+-> definindo um modelo de pessoa
+    Classe = definição do que deve ser o objeto
+    Instância = ocorrência daquele objeto
+class Pessoa{
+    nome;
+    idade;
+
+    descrever() {
+        console.log(`Meu nome é ${this.nome} e tenho ${this.idade}`)
+    }   
+}
